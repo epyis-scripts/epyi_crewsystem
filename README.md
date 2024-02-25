@@ -8,6 +8,7 @@
 ```
 ## 👀 Characteristics of the script
 - Compatible only on <a href="https://github.com/esx-framework/esx_core">ESX Legacy 1.7.5</a> and above
+- Integrated double job (the system uses statebags and not SetJob2 or SetFaction type events. The script is not drag and dropable!)
 - Territory claiming system similar to minecraft PVP Faction
 - Power system similar to minecraft PVP Faction
 - Influence point system for each gang with ranking
