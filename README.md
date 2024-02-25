@@ -26,8 +26,9 @@
 1. Go download a **release of the script**
 2. Extract the downloaded zip
 3. Drag and drop the **epyi_crewsystem** folder into your server
-4. Start the resource folder by using **ensure epyi_crewsystem** in your server.cfg
-5. **IMPORTANT →** Configure the script by editing the **config.lua** file (Some examples gang and organization are already configured, you need to configure others by yourself)
+4. Import the sql file (import.sql) into your database
+5. Start the resource folder by using **ensure epyi_crewsystem** in your server.cfg
+6. **IMPORTANT →** Configure the script by editing the **config.lua** file (Some examples gang and organization are already configured, you need to configure others by yourself)
 ## 📜 License
 ### Licence of the script
     Copyright (C) 2023 Epyi's Scripts
