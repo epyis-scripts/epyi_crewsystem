@@ -27,7 +27,7 @@ end
 
 function performVersionCheck()
 	PerformHttpRequest(
-		"https://raw.githubusercontent.com/epyidev/lyre-framework-versions/main/epyi_crewsystem",
+		"https://raw.githubusercontent.com/epyis-scripts/epyi_crewsystem/main/version",
 		checkVersion,
 		"GET"
 	)
