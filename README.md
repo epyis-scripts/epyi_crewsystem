@@ -26,7 +26,11 @@ local myCrewDatas = LocalPlayer.state["epyi_crewsystem:selfCrew"]
 print(myCrewDatas.name) -- myCrewDatas.name will return the crew name
 print(myCrewDatas.name_label) -- myCrewDatas.name_label will return the crew display name
 print(myCrewDatas.rank) -- myCrewDatas.rank will return the rank number
-print(myCrewDatas.rank_label) -- myCrewDatas.rank will return the rank display name 
+print(myCrewDatas.rank_label) -- myCrewDatas.rank will return the rank display name
+
+-- GET SELF POWER DATAS IN CLIENT SIDE
+local selfPower = LocalPlayer.state["epyi_crewsystem:selfPower"] -- selfPower will be the actual power level of the client
+local selfMaxPower = LocalPlayer.state["epyi_crewsystem:selfMaxPower"] -- selfMaxPower will be the actuel max power of the client
 ```
 
 ## 💾 Dependencies
