@@ -31,6 +31,9 @@ print(myCrewDatas.rank_label) -- myCrewDatas.rank will return the rank display n
 -- GET SELF POWER DATAS IN CLIENT SIDE
 local selfPower = LocalPlayer.state["epyi_crewsystem:selfPower"] -- selfPower will be the actual power level of the client
 local selfMaxPower = LocalPlayer.state["epyi_crewsystem:selfMaxPower"] -- selfMaxPower will be the actuel max power of the client
+
+-- GET CREWS INFORMATIONS IN CLIENT AND SERVER SIDE
+local crewsInfos = GlobalState["epyi_crewsystem:crewInfos"] -- Return a table with all crews informations
 ```
 
 ## 💾 Dependencies
