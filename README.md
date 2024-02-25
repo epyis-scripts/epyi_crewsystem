@@ -25,6 +25,8 @@
 local myCrewDatas = LocalPlayer.state["epyi_crewsystem:selfCrew"]
 print(myCrewDatas.name) -- myCrewDatas.name will return the crew name
 print(myCrewDatas.name_label) -- myCrewDatas.name_label will return the crew display name
+print(myCrewDatas.rank) -- myCrewDatas.rank will return the rank number
+print(myCrewDatas.rank_label) -- myCrewDatas.rank will return the rank display name 
 ```
 
 ## 💾 Dependencies
