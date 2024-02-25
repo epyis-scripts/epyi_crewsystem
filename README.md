@@ -19,6 +19,14 @@
 - Very customizable configuration
 - The script is optimized (0.00ms/0.00%)
 
+## 🔧 How to use it ? (because the script is not 100% drag and dropable)
+```lua
+-- GET SELF CREW DATAS IN CLIENT SIDE
+local myCrewDatas = LocalPlayer.state["epyi_crewsystem:selfCrew"]
+print(myCrewDatas.name) -- myCrewDatas.name will return the crew name
+print(myCrewDatas.name_label) -- myCrewDatas.name_label will return the crew display name
+```
+
 ## 💾 Dependencies
 - **es_extended** from <a href="https://github.com/esx-framework/esx_core">esx_core official repository</a>
 - **ox_inventory** from <a href="https://github.com/overextended/ox_inventory">ox_inventory official repository</a>
