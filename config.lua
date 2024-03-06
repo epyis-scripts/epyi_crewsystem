@@ -8,7 +8,7 @@ Config.menuStyle = {
 		color = { r = 150, g = 50, b = 50, a = 100 }, -- [table] → Set the banner color if no custom banner image is set
 		useGlareEffect = false, -- [boolean] → Use the glare effect or not
 		useInstructionalButtons = true, -- [boolean] → Use the instructionals buttons or not
-		imageUrl = GetConvar("rage_banner", nil), -- [nil/string] → Set a custom image url if you want (if set, it will disable the Color configuration)
+		imageUrl = nil, -- [nil/string] → Set a custom image url if you want (if set, it will disable the Color configuration)
 		imageSize = { width = 512, height = 128 }, -- [table] → Set the image (ImageUrl) size un pixels
 		widthOffset = 0, -- [integer] → Offset of the menu (default: 0, max: 100)
 	},
