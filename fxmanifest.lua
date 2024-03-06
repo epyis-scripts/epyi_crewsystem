@@ -38,6 +38,6 @@ dependencies({
 	"oxmysql",
 	"ox_inventory",
 	-- "epyi_garage",
-	"ox_target"
+	-- "ox_target"
 
 })
